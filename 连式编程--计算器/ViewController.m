@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "CaculatorMaker.h"
+#import "NSObject+Caculator.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    int result =  [NSObject makeCaculator:^(CaculatorMaker *maker) {
+        maker.add(10).add(30);
+        maker.add(20).add(40);
+        maker.multy(2).division(10);
+        maker.jian(19);
+    }];
+    NSLog(@"%d",result);
 }
 
 - (void)didReceiveMemoryWarning {

@@ -15,6 +15,8 @@
 		077F81C41CB8B10500181279 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077F81C21CB8B10500181279 /* LaunchScreen.storyboard */; };
 		077F81CF1CB8B10500181279 /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 077F81CE1CB8B10500181279 /* _________Tests.m */; };
 		077F81DA1CB8B10500181279 /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 077F81D91CB8B10500181279 /* _________UITests.m */; };
+		077F81E91CB8B12C00181279 /* CaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 077F81E81CB8B12C00181279 /* CaculatorMaker.m */; };
+		077F82121CB8DE4200181279 /* NSObject+Caculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 077F82111CB8DE4200181279 /* NSObject+Caculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		077F81D51CB8B10500181279 /* 连式编程--计算器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "连式编程--计算器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		077F81D91CB8B10500181279 /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
 		077F81DB1CB8B10500181279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077F81E71CB8B12C00181279 /* CaculatorMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaculatorMaker.h; sourceTree = "<group>"; };
+		077F81E81CB8B12C00181279 /* CaculatorMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaculatorMaker.m; sourceTree = "<group>"; };
+		077F82101CB8DE4200181279 /* NSObject+Caculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Caculator.h"; sourceTree = "<group>"; };
+		077F82111CB8DE4200181279 /* NSObject+Caculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Caculator.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				077F81B81CB8B10500181279 /* AppDelegate.m */,
 				077F81BA1CB8B10500181279 /* ViewController.h */,
 				077F81BB1CB8B10500181279 /* ViewController.m */,
+				077F82101CB8DE4200181279 /* NSObject+Caculator.h */,
+				077F82111CB8DE4200181279 /* NSObject+Caculator.m */,
+				077F81E71CB8B12C00181279 /* CaculatorMaker.h */,
+				077F81E81CB8B12C00181279 /* CaculatorMaker.m */,
 				077F81BD1CB8B10500181279 /* Main.storyboard */,
 				077F81C01CB8B10500181279 /* Assets.xcassets */,
 				077F81C21CB8B10500181279 /* LaunchScreen.storyboard */,
@@ -271,8 +281,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				077F81BC1CB8B10500181279 /* ViewController.m in Sources */,
+				077F81E91CB8B12C00181279 /* CaculatorMaker.m in Sources */,
 				077F81B91CB8B10500181279 /* AppDelegate.m in Sources */,
 				077F81B61CB8B10500181279 /* main.m in Sources */,
+				077F82121CB8DE4200181279 /* NSObject+Caculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
